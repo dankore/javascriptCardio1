@@ -1,54 +1,61 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
- <script src="https://unpkg.com/feather-icons"></script>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
-  <script type="text/javascript" src="main.js"></script>
-  <meta charset="UTF-8">
-  <title>Array Methods - Filter, Reduce and Sort</title>
-</head>
-<body>
-  <div class="w-3/5 mt-6 w-full md:max-w-md m-auto px-3">
-    <h1>JavaScript Cardio Day 1</h1>
-    <h2 class="mt-6">Array Methods - Filter, Reduce and Sort</h2>
-   <a href="https://github.com/wesbos/JavaScript30/blob/master/04%20-%20Array%20Cardio%20Day%201/index-START.html"><button class="bg-blue mt-3 hover:bg-blue-dark text-white font-bold py-2 px-4 rounded">
-   Click to view exercise
-</button></a>
-    <p class="mt-4">
-      <em>Check your browser console for solutions. Exercise created by <a href="https://javascript30.com/">Wes Bos.</a></em>
-      </p>
-      <div>
-        <h3 class="mt-8 mb-3">Filtering Arrays</h3>
-        <ul>
-          <li>Creates a new array</li>
-          <li>If no element of array is filtered, an empty array is returned</li>
-          <li><code>var newArray = arr.filter(callback(element[, index[, array]])[, thisArg])</code><sup>Taken from <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter">MDN</a></sup></li>
-        </ul>
-         <h3 class="mt-8 mb-3">Reducing Arrays</h3>
-        <ul>
-          <li>Condenses an array elements to a single value</li>
-          <li>If array has no element, method doesn't run</li>
-          <li><code>arr.reduce(callback[, initialValue])</code><sup>Taken from <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce">MDN</a></sup></li>
-        </ul>
-          <h3 class="mt-8 mb-3">Sorting Arrays</h3>
-        <ul>
-          <li>Sorts arrays according to your specs in the compareFunction</li>
-            <li>By default, it sorts an array alphabetically from smallest to biggest </li>
-          <li>doesn't return </li>
-          <li><code>arr.sort([compareFunction])</code><sup>Taken from <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort">MDN</a></sup></li>
-        </ul>
-        
+   <head>
+      <link rel="stylesheet" href="exercise.html" type="text/css" />
+      <script src="https://unpkg.com/feather-icons"></script>
+      <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+      <meta charset="UTF-8">
+      <title>Array Methods - Filter, Reduce and Sort</title>
+   </head>
+   <body>
+      <div class="w-3/5 mt-6 w-full md:max-w-md m-auto px-3">
+         <h1>JavaScript Cardio Day 1</h1>
+         <h2 class="mt-6">Array Methods - Filter, Reduce and Sort</h2>
+         <a href="exercise.html">
+         <button class="bg-blue mt-3 hover:bg-blue-dark text-white font-bold py-2 px-4 rounded">
+         Click to view exercises
+         </button>
+         </a>
+         <p class="mt-4">
+            <em>Check your browser console for solutions. Exercise created by <a href="https://javascript30.com/">Wes Bos.</a></em>
+         </p>
+         <div>
+            <h2 class="mt-6 text-blue">Refresher</h2>
+            <h3 class="mt-3 mb-3">Filtering Arrays</h3>
+            <ul>
+               <li>Creates a new array</li>
+               <li>If no element of array is filtered, an empty array is returned</li>
+               <li><code>var newArray = arr.filter(callback(element[, index[, array]])[, thisArg])</code><sup>Taken from <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter">MDN</a></sup></li>
+            </ul>
+            <h3 class="mt-8 mb-3">Reducing Arrays</h3>
+            <ul>
+               <li>Condenses an array elements to a single value</li>
+               <li>If array has no element, method doesn't run</li>
+               <li><code>arr.reduce(callback[, initialValue])</code><sup>Taken from <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce">MDN</a></sup></li>
+            </ul>
+            <h3 class="mt-8 mb-3">Sorting Arrays</h3>
+            <ul>
+               <li>Sorts arrays according to your specs in the compareFunction</li>
+               <li>By default, it sorts an array alphabetically from smallest to biggest </li>
+               <li>doesn't return </li>
+               <li><code>arr.sort([compareFunction])</code><sup>Taken from <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort">MDN</a></sup></li>
+            </ul>
+         </div>
+         <a href="https://twitter.com/adamumdankore"><i class="mt-6"  data-feather="twitter"></i></a>
       </div>
-      <a href="https://twitter.com/adamumdankore"><i class="mt-6"  data-feather="twitter"></i></a>
-  </div>
-
-<script>
-      feather.replace()
-</script>
-<style type="text/css">
-  body {
-    box-sizing: border-box;
-  }
-</style>
-</body>
+      <script>
+         feather.replace()
+      </script>
+      <style type="text/css">
+         body {
+         box-sizing: border-box;
+         }
+      </style>
+      
+      <script type="text/javascript" src="main.js"></script>
+   </body>
 </html>
+
+
